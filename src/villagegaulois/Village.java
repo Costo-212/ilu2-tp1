@@ -13,6 +13,21 @@ public class Village {
 		this.nom = nom;
 		villageois = new Gaulois[nbVillageoisMaximum];
 	}
+	
+	private static class Etals {
+		private Etal[]etals=new Etal[];
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	public String getNom() {
 		return nom;
@@ -56,4 +71,5 @@ public class Village {
 		}
 		return chaine.toString();
 	}
+	
 }
